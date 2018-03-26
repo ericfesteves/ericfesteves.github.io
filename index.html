@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+    <link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head>
+
+<body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Eric" last-name="Felipe Esteves" linkedin="ericesteves" github="ericfesteves" email="ericfesteves@gmail.com"
+            phone="(19) 991878978">
+        </resume-heading>
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="Formação Academica">
+                    <p>Metrocamp</p>
+                    <p>Graduação Jul 2018</p>
+                    <p>Engenharia da Computação</p>
+                    <p>CEMEP - Técnico</p>
+                    <p>Graduação Dez 2008</p>
+                    <p>Técnico em Informática</p>
+                </sidebar-category>
+            </resume-column>
+            <resume-column flex="80">
+                <category name="Experiencia Profissional">
+                    <category-item title="Analista e Desenvolvedor Jr." subtitle="Sottelli Intelligent It (Jul 2017 - Atuando)">
+                        <li>Codificação Apex</li>
+                        <li>Fluxos de Trabalho, Process Builder, Regras de Validação</li>
+                        <li>Triggers, Relatórios, Painéis</li>
+                        <li>Criação e configuração de usuários</li>
+                        <li>Javascript</li>
+                    </category-item>
+                    <category-item title="Estágio - Desenvolvedor Jr." subtitle="CI&T (Fev 2015 - Dez 2016)">
+                        <li>Atuação em projeto internacional com analise e definição de soluções técnicas e negócios</li>
+                        <li>C#, .NET, MVC 3 e 4, Entity Framework, SQL Server 2012, Reporting Services</li>
+                        <li>Javascript, jQuery, CSS</li>
+                        <li>Controle de Versão com GIT e TFS</li>
+                        <li>Utilização de JIRA como ferramenta de controle</li>
+                        <li>Metodologia SCRUM</li>
+                    </category-item>
+                    <category-item title="Assistente de TI" subtitle="EGSA Equipamentos para Gás do Brasil (Set 2013 - Jun 2014)">
+                        <li>Suporte aos usuários, manutenção dos equipamentos</li>
+                        <li>instalação e configuração de servidores</li>
+                        <li>instalação e configuração de equipamentos de rede</li>
+                        <li>Gerenciamento de contas de email, Controle de backup</li>
+                        <li>Monitoramento de Sistemas e Servidores</li>
+                    </category-item>
+                </category>
+                <category name="Projetos">
+                    <category-item title="Jogo" subtitle="Another Generic Hero">
+                        <li>Projeto da faculdade - Jogo desenvolvido em C# e utilizando a engine Unity 3d</li>
+                    </category-item>
+                    <category-item title="Jogo" subtitle="Stickman">
+                        <li>Projeto da faculdade - Jogo desenvolvido em C, utilizando a biblioteca gráfica allegro</li>
+                    </category-item>
+                </category>
+                <category name="Skills">
+                    <category-item title="Web Development">
+                        <li>
+                            <strong>HTML</strong> Great knowledge from html5</li>
+                        <li>
+                            <strong>CSS</strong> Workind using less, media queries</li>
+                        <li>
+                            <strong>SCRUM</strong> Basic knowlege, having used just sometimes</li>
+                        <li>
+                            <strong>Frameworks</strong> AngularJs, studying Angular 2+ and React </li>
+                    </category-item>
+                    <category-item title="Tecnologias">
+                        <li>
+                            <strong>Linguagem de Programação:</strong> C# / Javascript / PHP / Apex </li>
+                        <li>
+                            <strong>Banco de Dados:</strong> MySQL / SQLServer</li>
+                        <li>
+                            <strong>Outros:</strong>Amazon AWS / Windows Server</li>    
+                    </category-item>
+                    <category-item title="Eu">
+                        <li>
+                            <strong>Idade</strong> 26 - (16/04/91)
+                        </li>
+                        <li>
+                            <strong>Idioma</strong> Inglês - Intermediario/Avançado (Escrita, Leitura e Conversa)
+                        </li>
+                        <li>
+                            <strong>Cidade</strong> Paulínia/SP
+                        </li>
+                    </category-item>
+                </category>
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body>
+
+</html>
